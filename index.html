@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> SINGLE LINE INPUT CONTROL</title>
+</head>
+
+<body>
+  <h2>HTML FORM tag</h2>
+  <form>
+    <label>HOME APPLIANCE NAME</label>
+    <input type=“text” name=“Home Appliances”>
+    <br>
+    <label>APPLIANCE description</label>
+    <textarea rows=“3” cols=60 name="Appliances Description">
+   Enter the Appliance product Details from here...
+        </textarea>
+    <input type=“submit” name=“submit button” />
+    <br>
+    <br>
+    <h2>USERNAME AND PASSWORD INPUT</h2>
+    <label>UserName</label>
+    <input type=“text” name=“username”>
+    <br>
+    <label>Password</label>
+    <input type="password" />
+    <br>
+    <br>
+    <label>search here</label>
+    <input type="search" name="Search here" />
+  </form>
+  <div>
+    <form>
+      <h2>RADIO BUTTON</h2>
+      <p> Select One Category type</p>
+      <input type="radio" name="type" checked>Clothing<br>
+      <input type="radio" name="type">Applinces<br>
+      <input type="radio" name="type">Electronics<br>
+      <h2>CHECKBOXES</h2>
+      <p> Select multiple options</p>
+      <input type="checkbox" name="type">iPhone12<br>
+      <input type="checkbox" name="type">iPhone13<br>
+      <input type="checkbox" name="type">iPhone14<br>
+      <input type="checkbox" name="type">iPhone15<br> <br>
+      <input type=“submit” name=“Submit” />
+    </form>
+    <h2>LIST OF ITEMS</h2>
+    <p>List of items given below</p>
+  </div>
+  <div>
+    <select name="location">
+      <option value="Techbook">Fundamentals of web dev</option>
+      <option value="Techbook">Data Visualization /option>
+      <option value="Techbook">Financial freedom</option>
+      <option value="Techbook">Monk who sold his ferari</option>
+      <option value="Techbook">Neural networks</option>
+    </select>
+  </div>
+  <h2>GROUPING OF LIST OF ITEMS</h2>
+  <div>
+    <select name="location">
+      <optgroup label="Tech Books">
+        <option value="Techbook">Fundamentals of web dev</option>
+        <option value="Techbook">Data Visualization /option>
+        <option value="Techbook">Neural networks</option>
+
+      <optgroup label="Self Help Books">
+        <option value="Techbook">Financial freedom</option>
+        <option value="Techbook">Monk who sold his ferari</option>
+
+    </select>
+  </div>
+  <h2>FIELDSET (LOGIAL GROUPING OF FORM ELEMENTS)</h2>
+  <form>
+    <fieldset>
+      <legend>LOGIN:</legend>
+      Username:
+      <br>
+      <input type="text" name=“username”>
+      <br>
+      Password:
+      <br>
+      <input type="password" name=“Passwrd”>
+  </form>
+  <h1> <a href="./Forms.html">forms</a></h1>
+</body>
+
+</html>
